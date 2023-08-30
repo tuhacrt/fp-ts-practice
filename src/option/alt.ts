@@ -29,22 +29,3 @@ export const getMovieHighlight = (movie: Movie): string =>
     O.alt(() => getMovieTop10Highlight(movie)),
     O.getOrElse(() => `Released in ${movie.releaseYear}`),
   )
-
-export const movie1: Movie = {
-  title: 'The Shawshank Redemption',
-  releaseYear: 1994,
-  ratingPosition: 1,
-  award: 'Oscar',
-}
-
-export const movie2: Movie = {
-  title: 'The Godfather',
-  releaseYear: 1972,
-  ratingPosition: 3,
-}
-
-export const movie3: Movie = {
-  title: 'The Dark Knight',
-  releaseYear: 2008,
-  ratingPosition: 62,
-}
