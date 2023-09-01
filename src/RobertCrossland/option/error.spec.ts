@@ -23,12 +23,12 @@ describe('getSearchType()', () => {
   })
 
   it(`Given: a bookSearch with {
-    book: O.some("Job")
-    chapter: O.some(1)
-    verse: O.none
-  }
-  When: getSearchType
-  Then: return "Chapter"`, () => {
+        book: O.some("Job")
+        chapter: O.some(1)
+        verse: O.none
+      }
+      When: getSearchType
+      Then: return "Chapter"`, () => {
     const bookSearch = {
       book: O.some('Job'),
       chapter: O.some(1),
@@ -41,12 +41,12 @@ describe('getSearchType()', () => {
   })
 
   it(`Given: a bookSearch with {
-    book: O.some("Job")
-    chapter: O.some(1)
-    verse: O.some(2)
-  }
-  When: getSearchType
-  Then: return "Verse"`, () => {
+        book: O.some("Job")
+        chapter: O.some(1)
+        verse: O.some(2)
+      }
+      When: getSearchType
+      Then: return "Verse"`, () => {
     const bookSearch = {
       book: O.some('Job'),
       chapter: O.some(1),
@@ -59,12 +59,12 @@ describe('getSearchType()', () => {
   })
 
   it(`Given: a bookSearch with {
-    book: O.none
-    chapter: O.some(1)
-    verse: O.some(2)
-  }
-  When: getSearchType
-  Then: return "None"`, () => {
+        book: O.none
+        chapter: O.some(1)
+        verse: O.some(2)
+      }
+      When: getSearchType
+      Then: return "None"`, () => {
     const bookSearch = {
       book: O.none,
       chapter: O.some(1),

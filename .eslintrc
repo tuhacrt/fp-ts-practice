@@ -15,6 +15,7 @@
   "rules": {
     "antfu/top-level-function": "off",
     "antfu/if-newline": "off",
+    "curly": "off",
     "brace-style": "off",
     "@typescript-eslint/brace-style": "off"
   }

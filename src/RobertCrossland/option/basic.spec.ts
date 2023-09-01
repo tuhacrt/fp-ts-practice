@@ -32,6 +32,7 @@ describe('getBirthdayGreeting()', () => {
     const today = new Date()
     const received = getBirthdayGreeting(name, today)
     const expected = 'Happy birthday, Robert! You are 0 years old today!'
+
     expect(received).toEqual(expected)
   })
 
@@ -42,6 +43,7 @@ describe('getBirthdayGreeting()', () => {
     const today = new Date(1990, 1, 1)
     const received = getBirthdayGreeting(name, today)
     const expected = 'Not your birthday, Robert!'
+
     expect(received).toEqual(expected)
   })
 })
