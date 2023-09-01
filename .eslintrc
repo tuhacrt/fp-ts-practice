@@ -13,6 +13,9 @@
   ],
   "plugins": ["@typescript-eslint"],
   "rules": {
-    "antfu/top-level-function": "off"
+    "antfu/top-level-function": "off",
+    "antfu/if-newline": "off",
+    "brace-style": "off",
+    "@typescript-eslint/brace-style": "off"
   }
 }
