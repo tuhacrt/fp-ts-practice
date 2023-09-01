@@ -1,8 +1,9 @@
 import { describe, expect, it } from 'vitest'
 import * as O from 'fp-ts/lib/Option'
+
 import { getBestMovie, head, inverseHead } from './basic'
 
-describe('head', () => {
+describe('head()', () => {
   describe('Given: a array: [5, 6, 7]', () => {
     const xs = [5, 6, 7]
     describe('When: head', () => {

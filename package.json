@@ -64,6 +64,7 @@
   },
   "dependencies": {
     "fp-ts": "^2.16.1",
-    "ramda": "^0.29.0"
+    "ramda": "^0.29.0",
+    "ts-pattern": "^5.0.5"
   }
 }
